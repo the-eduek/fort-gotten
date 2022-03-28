@@ -10,4 +10,4 @@ This static site uses
 
 For the `/all-kidz` page, each asset is clickable and reveals a modal containing more information.
 
-[Link to project](https://fortgotten.netlify.app/)
+[Link to project](https://the-eduek.github.io/fort-gotten/)
