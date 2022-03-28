@@ -7,11 +7,21 @@ import AllKidz from '../views/AllKidz.vue';
 // defining routes 
 const routes = [
   {
+    path: '/fort-gotten/',
+    component: Home
+  },
+  {
     path: '/',
+    redirect: '/fort-gotten/',
     component: Home
   },
   {
     path: '/all-kidz',
+    redirect: '/fort-gotten/all-kidz/',
+    component: AllKidz
+  },
+  {
+    path: '/fort-gotten/all-kidz/',
     component: AllKidz
   }
 ];
